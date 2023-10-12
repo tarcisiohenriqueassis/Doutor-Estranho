@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Philosopher & display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Philosopher';
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container-topo{
+        height: 620px;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url('img/capa.jpg');
+        margin-bottom: 70px;
+    }
+.container-topo h1{
+    display: flex;
+    width: fit-content;
+    font-family:'Philosopher';
+    font-size: xx-large;
+    padding: 8px 25px;
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 28px;
+    left: 365px;
+}
+.container-topo h2{
+    display: flex;
+    width: fit-content;
+    font-family:'Philosopher';
+    font-size: x-large;
+    position: relative;
+    top: 26px;
+    left: 365px;
+    color: white;
+    background-color: red;
+    padding: 3px 21px;
+}
+.container-informaçao-elenco{
+    display: inline-block;
+    text-align: left;
+    margin-left: 150px;
+    padding-bottom: 30px;
+}
+.container-informaçao-elenco h2, p{
+    margin: 20px auto;
+}
+.container-informaçao-elenco p{
+    font-size: large;
+}
+.container-informaçao-elenco a{
+    color: black;
+    text-decoration: none;
+}
+.container-informaçao-elenco a:hover{
+    color: rgba(90, 86, 86, 0.911);
+}
+.container-informaçao-elenco figure img{
+    width: 190px;
+    height: 250px;
+    object-fit: cover;
+    margin: 15px 3px;
+}
+.container-imagem-sinopse{
+    height: 300px;
+    background-image: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+.container-sinopse{
+    margin-left: 150px;
+    line-height: 31px;
+    padding-bottom: 25px;
+}
+.container-sinopse h3{
+    width: min-content;
+    font-size: 1.4em;
+    margin: 21px 0px;
+}
+.container-sinopse p{
+    width: 755px;
+    font-size: larger;
+    margin: 0px;
+    margin-top:20px;
+}
+.container-sinopse span{
+    font-weight:bolder;
+}
+.container-sinopse .paragrafo-vermelho{
+    width: fit-content;
+    color: white;
+    background-color: red;
+    padding: 8px;
+}
+.container-sinopse .paragrafo-vermelho:hover{
+    color: silver;
+}
